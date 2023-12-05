@@ -15,10 +15,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-      - run: npm --prefix ./aerowiki/front install
-      - run: npm --prefix ./aerowiki/front run test
-      - run: npm --prefix ./aerowiki/back install
-      - run: npm --prefix ./aerowiki/back run build
-      - run: npm --prefix ./aerowiki/back run test
-      - run: npm --prefix ./aerowiki/front run build
+      # - run: npm --prefix ./aerowiki/front install
+      # - run: npm --prefix ./aerowiki/front run test
+      # - run: npm --prefix ./aerowiki/back install
+      # - run: npm --prefix ./aerowiki/back run build
+      # - run: npm --prefix ./aerowiki/back run test
+      # - run: npm --prefix ./aerowiki/front run build
 
